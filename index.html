@@ -20,10 +20,10 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div id="wrapper"> <!--ide general del contenedor del body de la pagina-->
 
         <!--Banner-->
-        <div class="banner-wrapper">
+        <div id="banner-wrapper">
             <header>
                 <div class="header-inner">
                     <a href="index.html" id="logo">
@@ -36,7 +36,7 @@
                         </a>
                         <ul>
                             <li>
-                                <a href="index.html">Inicio</a>
+                                <a href="index.html" class="courrent">Inicio</a>
                             </li>
                             <li>
                                 <a href="#caracters">Personajes</a>
@@ -65,6 +65,9 @@
         </div>
     </div>
 
+    <!--DIV para ajustar uso de float-->
+    <div class="clarfix-padding"></div>
+
     <section class="one-third" id="personajes">
         <div class="icon-wrap">
             <i class="bi bi-person-rolodex"></i>
@@ -79,7 +82,7 @@
         </p>
     </section>
 
-    <section class="one-third" id="personajes">
+    <section class="one-third">
         <div class="icon-wrap">
             <i class="bi bi-film"></i>
         </div>
@@ -92,6 +95,41 @@
             quasi maxime dicta dolorem modi consectetur?
         </p>
     </section>
+    <section class="one-third">
+        <div class="icon-wrap">
+            <i class="bi bi-calendar-heart-fill"></i>
+        </div>
+        <h3>TEMPORADAs</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Fuga ratione exercitationem,
+            nostrum ipsum officia ipsa culpa error nihil quos
+            maiores vero incidunt reprehenderit praesentium
+            quasi maxime dicta dolorem modi consectetur?
+        </p>
+    </section>
+
+    <!--DIV para ajustar uso de float-->
+    <div class="clarfix-padding"></div>
+
+    <!--Portfolio-->
+    <section class="left-col" id="portfolio"> 
+        <h3>PORTAFOLIO</h3>
+        <P>
+            Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Odit saepe sit magnam inventore, rem
+            quae at accusamus perferendis, cumque consequuntur
+            accusantium molestias sint nulla alias
+            error minus provident voluptate officiis.
+        </P>
+    </section>
+    <section class="sidebar">
+        <img src="img/logoDBZ.png" alt="logoDBZ">
+
+    </section>
+
+    <!--DIV para ajustar uso de float-->
+    <div class="clarfix-padding"></div>
 
     <!--Services -->
     <div class="one-third-padding" id="services">
@@ -119,7 +157,7 @@
         <div class="banner-wraper">
             <div class="icon-tex">
                 <div class="icon-text-icon">
-                    <ul>
+                    <ul class="footer-nav">
                         <li>
                             <a href="index.html">Inicio</a>
                         </li>
@@ -134,8 +172,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="icon-tex-tex">
-                    <ul>
+                <div class="icon-text-text">
+                    <ul class="social">
                         <li>
                             <a href="mailto: dresan@gmail.com" target="_blank">
                                 <i class="bi bi-envelope-at-fill"></i>
@@ -164,7 +202,7 @@
                     </ul>
 
 
-                </div> 
+                </div>
             </div>
         </div>
     </footer>
